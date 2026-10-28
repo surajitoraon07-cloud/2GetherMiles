@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2GetherMiles – Travel Together, Create Memories Forever!</title>
+  <meta name="description" content="2GetherMiles is a travel agency dedicated to creating unforgettable group adventures, scenic destinations, and personalized tour packages in Yelbong, Gangtok, and Darjeeling. Both sharing and private tours available." />
+  <meta name="keywords" content="2GetherMiles, travel agency, group tours, Yelbong trek, Gangtok, Darjeeling, Sikkim, sharing tours, private tours, Himalayan travel" />
+  <meta property="og:title" content="2GetherMiles – Travel Together, Create Memories Forever!" />
+  <meta property="og:description" content="Unforgettable travel experiences through exciting group adventures in Yelbong, Gangtok, and Darjeeling." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <div class="logo-icon" aria-hidden="true">
+          <img src="logo.jpeg" alt="2GetherMiles logo" />
+        </div>
+        <span class="logo-text"><span class="logo-2">2</span>GetherMiles</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#tours" class="nav-link">Tour Packages</a></li>
+        <li><a href="#tour-types" class="nav-link">Our Tours</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home" aria-label="Hero banner">
+      <div class="hero-parallax-wrapper">
+        <div class="hero-bg layer" style="--parallax-speed: 0.4;" aria-hidden="true">
+          <img src="hero.jpg" alt="" fetchpriority="high" />
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-up">✈️ Your Premier Himalayan Travel Partner</div>
+        <h1 class="hero-title animate-fade-up" style="--delay:0.1s">
+          Travel Together.<br />
+          <em>Create Memories</em><br />
+          Forever.
+        </h1>
+        <p class="hero-subtitle animate-fade-up" style="--delay:0.2s">
+          Unforgettable adventures in Yelbong, Gangtok & Darjeeling.<br />
+          Group sharing tours or personalized private escapes — your journey, your way.
+        </p>
+        <div class="hero-actions animate-fade-up" style="--delay:0.3s">
+          <a href="#tours" class="btn btn-primary" id="hero-explore-btn">Explore Packages</a>
+          <a href="#contact" class="btn btn-ghost" id="hero-book-btn">Book a Trip</a>
+        </div>
+        <div class="hero-stats animate-fade-up" style="--delay:0.4s">
+          <div class="stat">
+            <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Happy Travelers</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Tour Packages</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="3">0</span>
+            <span class="stat-label">Dream Destinations</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to about section">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </a>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about" aria-label="About 2GetherMiles">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-img-stack">
+              <img src="gangtok_mountain.png" alt="Aerial view of Gangtok with Kanchenjunga backdrop" class="about-img-main" loading="lazy" />
+              <div class="about-img-accent glass-card">
+                <span class="accent-emoji">🏔️</span>
+                <strong>Est. 2023</strong>
+                <span>Northeast India's finest travel partner</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-content reveal" style="--reveal-delay:0.15s">
+            <div class="section-tag">Who We Are</div>
+            <h2 class="section-title">Your Gateway to the <em>Himalayan Heart</em></h2>
+            <p class="about-text">
+              2GetherMiles is more than a travel agency — we're memory makers. Born from a passion for the majestic Northeast Indian mountains, we craft journeys that connect people, cultures, and breathtaking landscapes.
+            </p>
+            <p class="about-text">
+              From thrilling treks through the dense forests of Yelbong to the misty monasteries of Gangtok and the legendary tea gardens of Darjeeling, every package is designed with care, comfort, and adventure in mind.
+            </p>
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon" aria-hidden="true">🚐</div>
+                <div>
+                  <strong>Comfortable Transport</strong>
+                  <span>AC vehicles & curated routes</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon" aria-hidden="true">🏨</div>
+                <div>
+                  <strong>Handpicked Stays</strong>
+                  <span>Cozy homestays to boutique hotels</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon" aria-hidden="true">🗺️</div>
+                <div>
+                  <strong>Expert Itineraries</strong>
+                  <span>Crafted by local travel experts</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon" aria-hidden="true">🤝</div>
+                <div>
+                  <strong>24/7 Support</strong>
+                  <span>We're with you every mile</span>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary" id="about-contact-btn">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TOUR PACKAGES SECTION ========== -->
+    <section class="tours" id="tours" aria-label="Tour packages">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Destinations</div>
+          <h2 class="section-title">Our <em>Signature</em> Packages</h2>
+          <p class="section-desc">Three iconic destinations. Endless adventures. One unforgettable experience.</p>
+        </div>
+        <div class="tours-grid">
+
+          <!-- Yelbong Card -->
+          <article class="tour-card reveal" style="--reveal-delay:0s" id="tour-yelbong">
+            <div class="tour-card-img">
+              <img src="1662803882_img_20211013_wa0143.jpg" alt="Lush forest trekking trail in Yelbong, West Sikkim with river below" loading="lazy" />
+              <div class="tour-badge">Most Popular 🔥</div>
+              <div class="tour-overlay">
+                <a href="#contact" class="btn btn-primary btn-sm" id="yelbong-book-btn">Book This Tour</a>
+              </div>
+            </div>
+            <div class="tour-card-body">
+              <div class="tour-location">📍 West Sikkim</div>
+              <h3 class="tour-name">Yelbong Trek & River Adventure</h3>
+              <p class="tour-desc">Immerse yourself in the pristine forests of Yelbong — trek ancient trails, wade through crystal rivers, and camp under a canopy of stars.</p>
+              <div class="tour-highlights">
+                <span>🥾 Trekking</span>
+                <span>🏕️ Camping</span>
+                <span>🌊 River Crossing</span>
+              </div>
+              <div class="tour-footer">
+                <div class="tour-meta">
+                  <span>⏱️ 2–3 Days</span>
+                  <span>👥 Group / Private</span>
+                </div>
+                <div class="tour-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">₹3,499</span>
+                  <span class="price-per">/person</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gangtok Card -->
+          <article class="tour-card tour-card--featured reveal" style="--reveal-delay:0.1s" id="tour-gangtok">
+            <div class="tour-card-img">
+              <img src="gangtok_mountain.png" alt="Aerial view of Gangtok city with Kanchenjunga mountain range in background" loading="lazy" />
+              <div class="tour-badge tour-badge--gold">Editor's Pick ⭐</div>
+              <div class="tour-overlay">
+                <a href="#contact" class="btn btn-primary btn-sm" id="gangtok-book-btn">Book This Tour</a>
+              </div>
+            </div>
+            <div class="tour-card-body">
+              <div class="tour-location">📍 East Sikkim</div>
+              <h3 class="tour-name">Gangtok Mountain Getaway</h3>
+              <p class="tour-desc">Discover the queen of hills — visit ancient monasteries, marvel at Kanchenjunga views, and savor authentic Sikkimese cuisine in this mountain paradise.</p>
+              <div class="tour-highlights">
+                <span>🕌 Monasteries</span>
+                <span>🌄 Viewpoints</span>
+                <span>🍜 Local Cuisine</span>
+              </div>
+              <div class="tour-footer">
+                <div class="tour-meta">
+                  <span>⏱️ 3–5 Days</span>
+                  <span>👥 Group / Private</span>
+                </div>
+                <div class="tour-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">₹5,999</span>
+                  <span class="price-per">/person</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Darjeeling Card -->
+          <article class="tour-card reveal" style="--reveal-delay:0.2s" id="tour-darjeeling">
+            <div class="tour-card-img">
+              <img src="darjeeling_tea.png" alt="Darjeeling tea gardens with the Darjeeling Himalayan Railway toy train and Kanchenjunga peaks" loading="lazy" />
+              <div class="tour-badge">Heritage Journey 🚂</div>
+              <div class="tour-overlay">
+                <a href="#contact" class="btn btn-primary btn-sm" id="darjeeling-book-btn">Book This Tour</a>
+              </div>
+            </div>
+            <div class="tour-card-body">
+              <div class="tour-location">📍 West Bengal</div>
+              <h3 class="tour-name">Darjeeling Hills & Tea Trails</h3>
+              <p class="tour-desc">Sip freshly brewed tea amidst emerald gardens, ride the legendary toy train, and witness sunrises that paint the world gold from Tiger Hill.</p>
+              <div class="tour-highlights">
+                <span>🍵 Tea Gardens</span>
+                <span>🚂 Toy Train</span>
+                <span>🌅 Sunrise View</span>
+              </div>
+              <div class="tour-footer">
+                <div class="tour-meta">
+                  <span>⏱️ 2–4 Days</span>
+                  <span>👥 Group / Private</span>
+                </div>
+                <div class="tour-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">₹4,299</span>
+                  <span class="price-per">/person</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <div class="tours-cta reveal">
+          <a href="#contact" class="btn btn-primary" id="tours-enquire-btn">Enquire About Custom Packages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TOUR TYPES SECTION ========== -->
+    <section class="tour-types" id="tour-types" aria-label="Tour types comparison">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">How We Travel</div>
+          <h2 class="section-title">Choose Your <em>Adventure Style</em></h2>
+          <p class="section-desc">Every traveler is unique. We offer two ways to explore — find the one that fits your vibe.</p>
+        </div>
+        <div class="tour-types-grid">
+          <div class="tour-type-card reveal" id="sharing-tour-card" style="--reveal-delay:0s">
+            <div class="tour-type-icon" aria-hidden="true">👥</div>
+            <h3>Sharing Tours</h3>
+            <p class="tour-type-tagline">Meet people. Share stories. Make friends for life.</p>
+            <ul class="tour-type-list" role="list">
+              <li>✅ Fixed departure dates</li>
+              <li>✅ Budget-friendly pricing</li>
+              <li>✅ Meet fellow travelers</li>
+              <li>✅ Led by expert guides</li>
+              <li>✅ Pre-planned itinerary</li>
+              <li>✅ Group energy & fun</li>
+            </ul>
+            <div class="tour-type-best-for">
+              <span>Best for:</span> Solo travelers, young explorers, budget adventurers
+            </div>
+            <a href="#contact" class="btn btn-outline" id="sharing-tour-btn">Join a Group</a>
+          </div>
+          <div class="tour-type-divider" aria-hidden="true">
+            <span>OR</span>
+          </div>
+          <div class="tour-type-card tour-type-card--private reveal" id="private-tour-card" style="--reveal-delay:0.15s">
+            <div class="tour-type-icon" aria-hidden="true">👑</div>
+            <h3>Private Tours</h3>
+            <p class="tour-type-tagline">Your journey. Your pace. Your perfect escape.</p>
+            <ul class="tour-type-list" role="list">
+              <li>✅ Flexible dates & duration</li>
+              <li>✅ Fully customizable itinerary</li>
+              <li>✅ Dedicated vehicle & guide</li>
+              <li>✅ Priority accommodations</li>
+              <li>✅ Special occasions catered</li>
+              <li>✅ Complete privacy & comfort</li>
+            </ul>
+            <div class="tour-type-best-for">
+              <span>Best for:</span> Families, couples, honeymoons, corporate retreats
+            </div>
+            <a href="#contact" class="btn btn-primary" id="private-tour-btn">Plan Private Tour</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY SECTION ========== -->
+    <section class="gallery" id="gallery" aria-label="Photo gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Gallery</div>
+          <h2 class="section-title">Moments That <em>Last Forever</em></h2>
+          <p class="section-desc">A glimpse of the breathtaking beauty awaiting you.</p>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item gallery-item--tall" id="gallery-1">
+            <img src="image_2.jpg" alt="Misty Himalayan mountain valley with winding river at golden sunset" loading="lazy" />
+            <div class="gallery-caption">Himalayan Valley at Golden Hour</div>
+          </div>
+          <div class="gallery-item" id="gallery-2">
+            <img src="gangtok_mountain.png" alt="Gangtok city aerial view with Kanchenjunga mountains" loading="lazy" />
+            <div class="gallery-caption">Gangtok & Kanchenjunga</div>
+          </div>
+          <div class="gallery-item" id="gallery-3">
+            <img src="images (3).jpeg" alt="Forest trekking trail in Yelbong with river below" loading="lazy" />
+            <div class="gallery-caption">Yelbong Forest Trails</div>
+          </div>
+          <div class="gallery-item" id="gallery-3">
+            <img src="Gest.jpeg" alt="Forest trekking trail in Yelbong with river below" loading="lazy" />
+            <div class="gallery-caption">Priya and Friends at Yelbong</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section class="testimonials" id="testimonials" aria-label="Customer reviews and testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Testimonials</div>
+          <h2 class="section-title">What Our <em>Travelers Say</em></h2>
+          <p class="section-desc">Real stories from real adventurers who've traveled with us.</p>
+        </div>
+        <div class="testimonials-grid">
+
+          <blockquote class="testimonial-card reveal" style="--reveal-delay:0s">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">"The Yelbong trek was hands down the best experience of my life! The forests are magical, the river crossings were thrilling, and our guide Raj knew every trail like the back of his hand. Already planning my next trip!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">P</div>
+              <div>
+                <cite class="author-name">Priya Sharma</cite>
+                <span class="author-from">Mumbai, Maharashtra</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal" style="--reveal-delay:0.1s">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">"We booked a private tour to Gangtok for our anniversary and it was absolutely perfect. The team arranged everything flawlessly — from the monastery visits to the candlelit dinner with Kanchenjunga views. Truly magical!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <cite class="author-name">Arjun & Meera Das</cite>
+                <span class="author-from">Kolkata, West Bengal</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal" style="--reveal-delay:0.2s">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">"Joined a sharing tour to Darjeeling on a whim and made the best friends. The toy train ride at sunrise, the tea estate walk, the morning Tiger Hill view — all incredible. 2GetherMiles made it effortless and affordable!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">R</div>
+              <div>
+                <cite class="author-name">Ravi Krishnan</cite>
+                <span class="author-from">Bangalore, Karnataka</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal" style="--reveal-delay:0.3s">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-text">"Came as strangers on the sharing tour — left as a family! The 2GetherMiles team creates this beautiful community feel. The Yelbong camping night with everyone sharing stories around the fire... priceless."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div>
+                <cite class="author-name">Sneha Patel</cite>
+                <span class="author-from">Ahmedabad, Gujarat</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BLOG SECTION ========== -->
+    <section class="blog" id="blog" aria-label="Travel blog and tips">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Travel Blog</div>
+          <h2 class="section-title">Tips, Tales & <em>Travel Wisdom</em></h2>
+          <p class="section-desc">Insights, guides, and stories to inspire your next adventure.</p>
+        </div>
+        <div class="blog-grid">
+
+          <article class="blog-card reveal" style="--reveal-delay:0s" id="blog-1">
+            <div class="blog-img">
+              <img src="yelbong_trek.png" alt="Forest trekking trail in Yelbong" loading="lazy" />
+              <div class="blog-category">Trekking</div>
+            </div>
+            <div class="blog-body">
+              <time class="blog-date" datetime="2024-10-01">October 2024</time>
+              <h3 class="blog-title">A Complete Beginner's Guide to the Yelbong Trek</h3>
+              <p class="blog-excerpt">Everything you need to know before hitting the forest trails — from packing lists to the best season for the perfect trek experience.</p>
+              <a href="#contact" class="blog-read-more" aria-label="Read more about Yelbong trek guide">Read More →</a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal" style="--reveal-delay:0.1s" id="blog-2">
+            <div class="blog-img">
+              <img src="gangtok_mountain.png" alt="Gangtok cityscape with mountains" loading="lazy" />
+              <div class="blog-category">Culture</div>
+            </div>
+            <div class="blog-body">
+              <time class="blog-date" datetime="2024-09-15">September 2024</time>
+              <h3 class="blog-title">Top 10 Things to Do in Gangtok You Can't Miss</h3>
+              <p class="blog-excerpt">From the bustling MG Marg to the serene Rumtek Monastery — here are the absolute must-dos when you visit the capital of Sikkim.</p>
+              <a href="#contact" class="blog-read-more" aria-label="Read more about Gangtok travel tips">Read More →</a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal" style="--reveal-delay:0.2s" id="blog-3">
+            <div class="blog-img">
+              <img src="darjeeling_tea.png" alt="Darjeeling tea gardens and toy train" loading="lazy" />
+              <div class="blog-category">Heritage</div>
+            </div>
+            <div class="blog-body">
+              <time class="blog-date" datetime="2024-08-20">August 2024</time>
+              <h3 class="blog-title">The Magic of the Darjeeling Toy Train: A Timeless Journey</h3>
+              <p class="blog-excerpt">Hop aboard the UNESCO World Heritage DHR and discover why this 150-year-old steam locomotive still captures hearts worldwide.</p>
+              <a href="#contact" class="blog-read-more" aria-label="Read more about Darjeeling toy train">Read More →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ SECTION ========== -->
+    <section class="faq" id="faq" aria-label="Frequently asked questions">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">FAQ</div>
+          <h2 class="section-title">Your Questions, <em>Answered</em></h2>
+          <p class="section-desc">Everything you need to know before embarking on your adventure.</p>
+        </div>
+        <div class="faq-grid reveal">
+          <div class="faq-column">
+
+            <details class="faq-item" id="faq-1">
+              <summary class="faq-question">What's included in a sharing tour package?</summary>
+              <div class="faq-answer">
+                <p>Sharing tour packages include transportation (AC vehicle), accommodation, meals as specified in the itinerary, guide services, and all entry fees to attractions. You'll be traveling with a small group of fellow adventurers!</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-2">
+              <summary class="faq-question">How many people are in a sharing group?</summary>
+              <div class="faq-answer">
+                <p>Our sharing groups typically have 8–15 travelers. This keeps the experience intimate and fun, while making it cost-effective for everyone. Small enough to feel personal, big enough to be exciting!</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-3">
+              <summary class="faq-question">Can I customize a private tour completely?</summary>
+              <div class="faq-answer">
+                <p>Absolutely! Private tours are 100% customizable. You choose the dates, destinations, duration, accommodation type, and activities. Our team will design a bespoke itinerary just for you. Contact us to start planning!</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-4">
+              <summary class="faq-question">What is the best season to visit?</summary>
+              <div class="faq-answer">
+                <p>October to May is ideal for all three destinations. October–November offers crystal-clear skies and mountain views. March–May brings blooming rhododendrons. Monsoon (June–September) makes Yelbong lush and dramatic but can affect road conditions.</p>
+              </div>
+            </details>
+
+          </div>
+          <div class="faq-column">
+
+            <details class="faq-item" id="faq-5">
+              <summary class="faq-question">Is prior trekking experience needed for Yelbong?</summary>
+              <div class="faq-answer">
+                <p>No! Our Yelbong treks are designed for all fitness levels. We offer beginner-friendly trails as well as more challenging routes for experienced trekkers. Our guides ensure everyone stays safe and has an amazing time.</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-6">
+              <summary class="faq-question">How do I book a tour?</summary>
+              <div class="faq-answer">
+                <p>Simply fill out our enquiry form below or reach out via WhatsApp/phone. Our team will get back to you within 24 hours with package details, availability, and pricing. A 30% advance is required to confirm your booking.</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-7">
+              <summary class="faq-question">What is the cancellation policy?</summary>
+              <div class="faq-answer">
+                <p>Cancellations made 15+ days before departure receive a full refund. 7–14 days: 50% refund. Less than 7 days: no refund. We strongly recommend travel insurance. Special considerations are made for emergency situations.</p>
+              </div>
+            </details>
+
+            <details class="faq-item" id="faq-8">
+              <summary class="faq-question">Do you arrange permits for restricted areas?</summary>
+              <div class="faq-answer">
+                <p>Yes! Certain areas in Sikkim require special permits (ILP). We handle all permit formalities on your behalf — you just need to provide the required documents (ID/passport copies) when booking. Stress-free travel guaranteed!</p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT / BOOKING SECTION ========== -->
+    <section class="contact" id="contact" aria-label="Contact and booking enquiry">
+      <div class="contact-bg-shape" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="section-tag">Book Your Trip</div>
+            <h2 class="section-title">Ready to Start Your <em>Adventure?</em></h2>
+            <p>Let's make your dream trip a reality! Fill out the form and our travel experts will reach out within 24 hours with a personalized quote.</p>
+
+            <div class="contact-details">
+              <a href="tel:+919876543210" class="contact-detail-item" id="contact-phone">
+                <div class="contact-icon" aria-hidden="true">📞</div>
+                <div>
+                  <strong>Call / WhatsApp</strong>
+                  <span>+91 98765 43210</span>
+                </div>
+              </a>
+              <a href="mailto:hello@2gethermiles.com" class="contact-detail-item" id="contact-email">
+                <div class="contact-icon" aria-hidden="true">✉️</div>
+                <div>
+                  <strong>Email Us</strong>
+                  <span>hello@2gethermiles.com</span>
+                </div>
+              </a>
+              <div class="contact-detail-item">
+                <div class="contact-icon" aria-hidden="true">📍</div>
+                <div>
+                  <strong>Base Location</strong>
+                  <span>Kalimpong, West Bengal, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links" aria-label="Social media links">
+              <a href="https://www.instagram.com/2geth_ermiles?obrf=MWl1cDNudG9ubDRxZQ==" class="social-link" id="social-instagram" aria-label="Follow us on Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="social-facebook" aria-label="Follow us on Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="#" class="social-link" id="social-youtube" aria-label="Watch us on YouTube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal" style="--reveal-delay:0.15s">
+            <form class="contact-form" id="booking-form" novalidate aria-label="Booking enquiry form">
+              <h3 class="form-title">Send Us an Enquiry</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-name">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="f-name" name="name" placeholder="Your full name" required autocomplete="name" />
+                </div>
+                <div class="form-group">
+                  <label for="f-phone">Phone / WhatsApp <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="f-phone" name="phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-email">Email Address</label>
+                  <input type="email" id="f-email" name="email" placeholder="you@example.com" autocomplete="email" />
+                </div>
+                <div class="form-group">
+                  <label for="f-tour-type">Tour Type <span aria-hidden="true">*</span></label>
+                  <select id="f-tour-type" name="tour_type" required>
+                    <option value="" disabled selected>Select tour type</option>
+                    <option value="sharing">Sharing Tour</option>
+                    <option value="private">Private Tour</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-destination">Destination</label>
+                  <select id="f-destination" name="destination">
+                    <option value="" disabled selected>Select destination</option>
+                    <option value="yelbong">Yelbong Trek & River Adventure</option>
+                    <option value="gangtok">Gangtok Mountain Getaway</option>
+                    <option value="darjeeling">Darjeeling Hills & Tea Trails</option>
+                    <option value="custom">Custom / Multi-destination</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="f-travelers">Number of Travelers <span aria-hidden="true">*</span></label>
+                  <input type="number" id="f-travelers" name="travelers" placeholder="e.g. 4" min="1" max="50" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="f-date">Preferred Travel Date</label>
+                <input type="date" id="f-date" name="travel_date" />
+              </div>
+              <div class="form-group">
+                <label for="f-message">Special Requests or Questions</label>
+                <textarea id="f-message" name="message" rows="4" placeholder="Tell us about your dream trip, any special requirements, dietary needs, etc."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                <span class="btn-text">Send Enquiry ✈️</span>
+                <span class="btn-loading" aria-hidden="true">Sending...</span>
+              </button>
+              <p class="form-note">We'll respond within 24 hours. No spam, ever. ❤️</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="nav-logo footer-logo" aria-label="2GetherMiles home">
+              <div class="logo-icon" aria-hidden="true">
+                <svg width="30" height="30" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="18" r="17" stroke="currentColor" stroke-width="2"/>
+                  <path d="M8 22 L14 12 L18 18 L22 10 L28 22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <circle cx="18" cy="18" r="3" fill="currentColor"/>
+                </svg>
+              </div>
+              <span class="logo-text"><span class="logo-2">2</span>GetherMiles</span>
+            </a>
+            <p class="footer-tagline">Travel Together. Explore More. Make memories that last a lifetime. ❤️</p>
+          </div>
+          <div class="footer-links-group">
+            <h4>Destinations</h4>
+            <ul role="list">
+              <li><a href="#tour-yelbong">Yelbong Trek</a></li>
+              <li><a href="#tour-gangtok">Gangtok Getaway</a></li>
+              <li><a href="#tour-darjeeling">Darjeeling Hills</a></li>
+              <li><a href="#contact">Custom Packages</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4>Our Tours</h4>
+            <ul role="list">
+              <li><a href="#sharing-tour-card">Sharing Tours</a></li>
+              <li><a href="#private-tour-card">Private Tours</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#blog">Travel Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4>Connect</h4>
+            <ul role="list">
+              <li><a href="tel:+919876543210">📞 +91 98765 43210</a></li>
+              <li><a href="mailto:hello@2gethermiles.com">✉️ hello@2gethermiles.com</a></li>
+              <li><a href="#social-instagram">📸 Instagram</a></li>
+              <li><a href="#social-facebook">👍 Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 2GetherMiles. All rights reserved. Made with ❤️ for adventurous souls.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll back to top" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
